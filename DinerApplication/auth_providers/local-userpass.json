@@ -1,0 +1,11 @@
+{
+    "name": "local-userpass",
+    "type": "local-userpass",
+    "config": {
+        "confirmEmailSubject": "Confirm your email address for SITYO",
+        "emailConfirmationUrl": "https://www.sityo.io/users/confirm",
+        "resetPasswordSubject": "Follow the link to reset your SITYO password",
+        "resetPasswordUrl": "https://www.sityo.io/users/reset"
+    },
+    "disabled": false
+}

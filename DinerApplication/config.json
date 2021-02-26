@@ -1,0 +1,18 @@
+{
+    "app_id": "dinerapplication-ykape",
+    "config_version": 20200603,
+    "name": "DinerApplication",
+    "location": "US-VA",
+    "deployment_model": "LOCAL",
+    "security": {},
+    "custom_user_data_config": {
+        "enabled": true,
+        "mongo_service_name": "mongodb-atlas",
+        "database_name": "Users",
+        "collection_name": "diners",
+        "user_id_field": "auth_data"
+    },
+    "sync": {
+        "development_mode_enabled": false
+    }
+}
